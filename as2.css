@@ -1,0 +1,87 @@
+
+    *{
+        margin:0px;
+        padding:0px;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .intro{
+       
+        min-height: 100vh;
+        width:100%;
+        color:#f0f0f0;
+        background-image: linear-gradient(rgba(0, 5, 9, 0.7),rgba(1, 3, 16, 0.7)),url("images/15.jpg");
+        background-position: center;
+        background-size:cover;
+        position: relative;
+    }
+    
+    .center{
+        text-align:center;
+    }
+
+    img{
+        width: 100px;
+        border: solid 0.2px rgb(11, 1, 1);
+        border-radius: 100px
+    
+    }
+
+    .hero-btn{
+        display:inline-block;
+        text-align: none;
+        color:rgb(108, 220, 233);
+        border:1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background:transparent;
+        position: relative;
+        align-items: center;
+        cursor:pointer;
+    }
+    .hero-btn1{
+        display:inline-flex;
+        text-align: none;
+        color:rgb(53, 237, 53);
+        border:1px solid rgb(62, 179, 218);
+        padding: 12px 34px;
+        font-size: 13px;
+        background:transparent;
+        position: relative;
+        cursor:pointer;
+    }
+    .hero-btn2{
+        display:inline-flex;
+        text-align: none;
+        color:rgb(159, 67, 67);
+        border:1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background:transparent;
+        position: relative;
+        cursor:pointer;
+    }
+    
+    .hero-btn:hover{
+        border:1px solid #be207a;
+        background:#b7cc32 ;
+        transition:1s;
+    }
+
+    .hero-btn1:hover{
+        border:1px solid #f0f0f0;
+        background:#2f6e38 ;
+        transition:1s;
+    }
+
+    .hero-btn2:hover{
+        border:1px solid #f0f0f0;
+        background:#cf4a74 ;
+        transition:1s;
+    }
+
+    .footer{
+        width:100%;
+        text-align: right;
+        padding: 30px 0;
+    }
